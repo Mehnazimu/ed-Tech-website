@@ -16,6 +16,46 @@
 
 }
 .trusted-links img{
-    
-height: 25px;
+    height: 20px;
 }
+/* footer styles */
+
+.socials{
+    list-style: none ;
+     
+    
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    color: #F4FAFD;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover{
+    color: aqua;
+}
+
+
+
+/* @media queries */
+@media  (min-width: 688px) {
+    .trusted-links{
+        
+        
+        
+    }
+
+    
+  } 
+@media only screen and (min-width: 688px) and (max-width:992) {
+    .trusted-links{
+        
+    }
+
+    
+  } 
+
